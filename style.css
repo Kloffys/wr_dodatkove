@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.map-container {
+    position: relative;
+    width: 1000px;
+    height: 634px;
+    margin: auto;
+    border: 1px solid #999;
+    background: #fff;
+}
+
+.map-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 634px;
+}
+
+#metro {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.line {
+    fill: none;
+    stroke-width: 6;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.red {
+    stroke: red;
+}
+
+.green {
+    stroke: green;
+}
+
+.blue {
+    stroke: blue;
+}
+
+.station {
+    fill: white;
+    stroke-width: 2;
+}
+
+.red.station {
+    stroke: red;
+}
+
+.green.station {
+    stroke: green;
+}
+
+.blue.station {
+    stroke: blue;
+}
