@@ -331,4 +331,4 @@ yearSelect.addEventListener("change", () => {
     renderMetro(yearSelect.value);
 });
 
-renderMetro("2025");
+renderMetro("1975");
