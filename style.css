@@ -8,7 +8,7 @@ body {
     position: relative;
     width: 1000px;
     height: 634px;
-    margin: auto;
+    margin: 10px auto;
     border: 1px solid #999;
     background: #fff;
 }
@@ -30,8 +30,8 @@ body {
 .line {
     fill: none;
     stroke-width: 6;
-    stroke-linejoin: round;
     stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 .red {
