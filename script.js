@@ -273,7 +273,6 @@ const metroByYear = {
     },
 };
 
-// ===== Tooltip =====
 const tooltip = document.createElement("div");
 tooltip.style.position = "absolute";
 tooltip.style.padding = "4px 8px";
@@ -285,7 +284,6 @@ tooltip.style.pointerEvents = "none";
 tooltip.style.display = "none";
 document.body.appendChild(tooltip);
 
-// ===== Малювання =====
 function drawLine(name, points) {
     const polyline = document.createElementNS(svgNS, "polyline");
     polyline.setAttribute(
@@ -329,10 +327,8 @@ function renderMetro(year) {
     });
 }
 
-// ===== Події =====
 yearSelect.addEventListener("change", () => {
     renderMetro(yearSelect.value);
 });
 
-// старт
 renderMetro("2025");
